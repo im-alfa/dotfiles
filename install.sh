@@ -14,4 +14,10 @@ cd "$DOTFILES_DIR"
 echo "Installing nvim"
 stow -v -t "$HOME/.config/nvim" nvim
 
+echo "Installing tmux"
+stow -v -t "$HOME" tmux
+
+echo "Installing alacritty"
+stow -v -t "$HOME/.config/alacritty" alacritty
+
 echo "Configs installed successfully!"
