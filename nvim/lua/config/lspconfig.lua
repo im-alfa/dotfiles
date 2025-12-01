@@ -4,6 +4,7 @@ local servers = {
   "cssls",
   "html",
   "rust_analyzer",
+  "zls"
 }
 
 vim.lsp.enable(servers)
@@ -43,6 +44,12 @@ vim.lsp.config.rust_analyzer = {
       },
     },
   },
+}
+
+vim.lsp.config.zls = {
+    cmd = { "zls" },
+    filetypes = { "zig", "zir" },
+    root_markers = { "zls.json", "build.zig", ".git" },
 }
 
 -- Use LspAttach autocommand to only map the following keys

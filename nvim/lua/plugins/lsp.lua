@@ -22,6 +22,7 @@
 				"pyright",
 				"ts_ls",
 				"rust_analyzer",
+				"zls"
 			},
 			automatic_installation = true,
 		},
