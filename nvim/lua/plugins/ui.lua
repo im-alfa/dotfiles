@@ -28,6 +28,7 @@ return {
 			})
 		end
 	},
+	{ "RRethy/vim-illuminate"},
   	-- nice bar
 	{
 		'itchyny/lightline.vim',
